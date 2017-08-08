@@ -50,9 +50,6 @@ $navbar-default-bg: #3A6426;
   text-decoration: none;
 }
 
-.navbar-fixed-bottom {
-  margin-top: 60px;
-}
 
 
 /*
@@ -61,8 +58,9 @@ $navbar-default-bg: #3A6426;
   ========================================
 */
 body {
+  margin-bottom: 120px;
   background: #fff;
-  colol: 666666;
+  color: 666666;
   font: 300 16px/22px "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
