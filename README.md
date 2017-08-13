@@ -13,6 +13,16 @@ Chef -
 - email address should be in valid format
 - email should be unique, case sensitive
 
-10thAug17
-Finished L62.
-Proceed to L63/64
+12thAug17
+Finished L68.
+Stopped at 15min in L69.
+
+
+Prefix      Verb      URI Pattern         Controller#Action
+recipes     GET       /recipes            recipes#index       #displays all the recipes
+new_recipe  GET       /recipes/new        recipes#new         #displays a form
+            POST      /recipes            recipes#create      #submits the info from the form
+edit_recipe GET       /recipes/:id/edit   recipes#edit        #displays an edit form
+            PATCH     /recipes/:id/       recipes#update      #submits the edited form info
+recipe      GET       /recipes/:id        recipes#show        #displays a particular recipe
+            DELETE    /recipes/:id        recipes#destroy     #deletes a particular recipe
