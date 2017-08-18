@@ -13,9 +13,10 @@ Chef -
 - email address should be in valid format
 - email should be unique, case sensitive
 
-12thAug17
-Finished L68.
-Stopped at 15min in L69.
+17thAug17
+Finished L82.
+Proceed to L83
+
 
 
 Prefix      Verb      URI Pattern         Controller#Action
